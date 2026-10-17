@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4d3dc">
+  <title>Лиза 30 лет!</title>
+  <meta name="description" content="Приглашение на день рождения Лизы — 31.10.2026 в 17:00">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Marck+Script&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="locked">
+
+  <div class="start" id="start">
+    <div class="envelope" aria-hidden="true">
+      <span class="envelope__label">Приглашение</span>
+      <span class="envelope__seal">♥</span>
+    </div>
+    <button class="btn btn--open" id="open" type="button">Открыть приглашение</button>
+    <p class="start__hint">со звуком</p>
+  </div>
+
+  <div class="stage">
+
+    <header class="header section" id="header">
+      <h1 class="header__name">Лизе</h1>
+      <p class="header__title">30 лет!</p>
+      <div class="collage">
+        <img src="photos/header-1.jpg" alt="Лиза, фото 1">
+        <img src="photos/header-2.jpg" alt="Лиза, фото 2">
+        <img src="photos/header-3.jpg" alt="Лиза, фото 3">
+        <img src="photos/header-4.jpg" alt="Лиза, фото 4">
+      </div>
+      <button class="btn btn--peek" id="peek" type="button">Вау, интересно!</button>
+    </header>
+
+    <section class="invite reveal">
+      <p class="invite__text">Я очень хочу пригласить тебя на свой день рождения, который состоится 31.10.2026 в 17:00.
+        Прочитай до конца, чтобы узнать все подробности</p>
+      <div class="cards">
+        <figure class="card card--left">
+          <figcaption>Отмечаем тут
+            <svg class="arrow" viewBox="0 0 60 40" fill="none" aria-hidden="true">
+              <path d="M4 30 C18 34 40 30 52 10" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+              <path d="M44 8 L54 8 L50 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                stroke-linejoin="round" fill="none" />
+            </svg>
+          </figcaption>
+          <img src="photos/cottage.png" alt="Коттедж">
+        </figure>
+        <figure class="card card--right">
+          <figcaption>
+            <svg class="arrow" viewBox="0 0 60 40" fill="none" aria-hidden="true">
+              <path d="M4 30 C18 34 40 30 52 10" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+              <path d="M44 8 L54 8 L50 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                stroke-linejoin="round" fill="none" />
+            </svg>
+            Купаться будем тут
+          </figcaption>
+          <img src="photos/pool.png" alt="Бассейн">
+        </figure>
+        <figure class="card card--left">
+          <figcaption>Париться будем тут
+            <svg class="arrow" viewBox="0 0 60 40" fill="none" aria-hidden="true">
+              <path d="M4 30 C18 34 40 30 52 10" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+              <path d="M44 8 L54 8 L50 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                stroke-linejoin="round" fill="none" />
+            </svg>
+          </figcaption>
+          <img src="photos/banya.png" alt="Баня">
+        </figure>
+      </div>
+    </section>
+
+    <section class="quote reveal">
+      <img class="quote__photo" src="photos/quote.jpg" alt="Лиза">
+      <blockquote class="quote__card">Коттедж арендован на сутки, но на ночь могут остаться только 8 человек. Если
+        желающих окажется больше, решим коллективно в общем чате, кто останется на ночь.</blockquote>
+    </section>
+
+    <section class="dresscode reveal">
+      <p class="dresscode__text"><span class="hand">Дресс-код вечера</span> — <strong>«Лиза»</strong>. Я хочу, чтобы вы
+        стали мной. Покажите меня в разные периоды моей жизни. Вот вам несколько примеров для вдохновения.
+        Фантазируйте&nbsp;♥️</p>
+      <div class="films">
+        <div class="film film--a">
+          <img src="photos/dresscode-1.jpg" alt="Дресс-код, пример 1">
+          <img src="photos/dresscode-2.jpg" alt="Дресс-код, пример 2">
+          <img src="photos/dresscode-3.jpg" alt="Дресс-код, пример 3">
+        </div>
+        <div class="film film--b">
+          <img src="photos/dresscode-4.jpg" alt="Дресс-код, пример 4">
+          <img src="photos/dresscode-5.jpg" alt="Дресс-код, пример 5">
+          <img src="photos/dresscode-6.jpg" alt="Дресс-код, пример 6">
+        </div>
+      </div>
+    </section>
+
+    <section class="condition reveal">
+      <h2 class="stamp">Обязательное условие!</h2>
+      <p class="condition__text">Каждого гостя я прошу подготовить 1 конкурс. Придумайте, отберите реквизит,
+        подготовьтесь на максимум! Постарайтесь сделать конкурс, который вовлечёт бо́льшую часть гостей</p>
+    </section>
+
+    <section class="info reveal">
+      <p class="kicker">Полезная информация</p>
+
+      <h3 class="info__sub">Вишлист</h3>
+      <a class="wishlist" href="https://ohmywishes.com/users/m2h22ttzgc" target="_blank" rel="noopener"
+        data-todo="wishlist">
+        <span>Открыть вишлист</span>
+        <span class="wishlist__arrow">→</span>
+      </a>
+
+      <h3 class="info__sub">Помощники по дресс-коду</h3>
+      <p class="helpers__cap">Если нужна подсказка по дресс-коду, спрашивайте у них</p>
+      <div class="helpers__row">
+        <figure>
+          <img src="photos/helper-sister.jpg" alt="Сестра">
+          <figcaption>Настя</figcaption>
+        </figure>
+        <figure>
+          <img src="photos/helper-husband.jpg" alt="Муж">
+          <figcaption>Дима</figcaption>
+        </figure>
+      </div>
+
+      <h3 class="info__sub">Координаты локации</h3>
+      <div class="map">
+        <!-- <iframe src="https://www.google.com/maps?q=%D0%A1%D0%9D%D0%A2%20%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2C%20878%2C%20644065%2C%20%D0%9E%D0%BC%D1%81%D0%BA%2C%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3&output=embed" loading="lazy" title="Карта"></iframe> -->
+        <iframe id="map_81530066" frameborder="0" width="600px" height="600px"
+          src="https://makemap.2gis.ru/widget?data=eJw1jsFuhDAMRP_FvUarkBIIfECr3va2Uqs9IOK2kQKOglfaLeLfa0LrkzVjv5kVKHvM6F-RJuQccIH-YwV-JIQeXnDgW0ZQkDIlzFz8FUaKlMV_0sZVn0Z8Dhz3D1k9LmMOiQPNh_DzNnu8Q1_p_9kUfB2Bjx33l3amMLPcjySlwjxwKdM-n4yzxrTK2pOuXefaq_wHL0Bjqu2qYBrSmZZwJK4QB4a-HHdOMutG28Z0CuJuF1zd7XJjtamlHtEkLCtQKU4xXr4R43tROd9w-wW8WFkM"
+          sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+        <p class="map__addr">Омск, СНТ Строитель, 878</p>
+      </div>
+    </section>
+
+    <section class="finale reveal">
+      <p class="finale__text">Люблю. Жду. Надеюсь, что придёте.</p>
+      <figure class="finale__photo">
+        <img src="photos/glass.jpg" alt="Лиза с бокалом">
+      </figure>
+    </section>
+
+    <section class="form reveal">
+      <h2 class="form__title">Анкета для тех, кто ТОЧНО придет. Заполните до 12:00 25.10.2026</h2>
+      <a class="btn" href="https://forms.yandex.ru/u/6ad339da6d2d73856da5a83b" target="_blank" rel="noopener" data-todo="form">Анкета</a>
+    </section>
+
+  </div>
+
+  <audio id="song" src="music/30-let.mp3" loop preload="none"></audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
